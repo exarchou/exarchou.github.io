@@ -288,6 +288,33 @@ html {
 }
 
 
+/* Music */
+.content {
+    width: 100%;
+    position: absolute;
+    top: 0%;
+}
+
+.right-col {
+    float: right;
+    margin-right: 3%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.right-col p {
+    font-size: 18px;
+    color: #5f5f5f;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+#icon {
+    width: 40px;
+    cursor: pointer;
+}
+
 
 /* Section */
 
@@ -465,12 +492,12 @@ ul.experiences li {
 }
 
 .where {
-    font-size: 1.2857em; 
+    font-size: 1.5857em; 
     font-weight: 600;
     display: inline;
     margin-right: 0.5em;
     text-decoration: underline;
-    color: #a32;
+    color: #c60;
 }
 
 .what {
