@@ -13,7 +13,7 @@ body {
 }
 
 #page-wraper {
-    background: url(../images/b.jpg) no-repeat center center fixed;
+    background: url(../images/b1.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -230,7 +230,8 @@ html {
     -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
     -webkit-overflow-scrolling: touch;
     background-color: #943126;
-    opacity: 0.7;
+    background: url(../images/menu.jpg)  repeat center center fixed;;
+    opacity: 0.85;
     box-sizing: border-box;
     height: 100vh;  
     max-height: 100vh !important;
@@ -488,7 +489,6 @@ ul.experiences li {
     padding-left: 13px;
     margin-bottom: 15px;
     list-style: none;
-    background: url('../assets/images/Disc_Plain_grey.png') no-repeat;
 }
 
 .where {
@@ -497,7 +497,7 @@ ul.experiences li {
     display: inline;
     margin-right: 0.5em;
     text-decoration: underline;
-    color: #c60;
+    color: #944;
 }
 
 .what {
