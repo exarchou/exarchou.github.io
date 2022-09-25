@@ -8,6 +8,7 @@ https://templatemo.com/tm-531-reflux
 
 @import url(fontawesome.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -116,8 +117,8 @@ html {
 }
 
 .main-nav li a {
-    height: 70px;
-    line-height: 70px;
+    height: 60px;
+    line-height: 60px;
     display: inline-block;
     font-size: 16px;
     font-weight: 700;
@@ -316,6 +317,22 @@ html {
     cursor: pointer;
 }
 
+#cv {
+    width: 60px;
+    margin-top: 20px;
+}
+
+#cv-text { 
+    font-size: 18px;
+    text-decoration: underline;
+    text-decoration-color: rgb(68, 148, 68);
+    color: rgb(68, 148, 68);
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 15px;
+    position: relative;
+}
+
 
 /* Section */
 
@@ -354,6 +371,8 @@ html {
     color: #fff;
     letter-spacing: 0.5px;
 }
+
+
 
 
 /* Buttons */
@@ -518,6 +537,11 @@ ul.experiences li {
 }
 .what.gray {
     background-color: #34495E;
+}
+
+
+.what.nothing {
+    background-color: #34495e00;
 }
 
 .when {
